@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S. Harshavarthini - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>S. Harshavarthini</h1>
+    <p>My Personal Portfolio</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>S. Harshavarthini</strong>, passionate about learning new technologies and creating innovative solutions. I love to work on projects that test my creativity and logical thinking.</p>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul class="certificates">
+      <li>Certified Web Developer</li>
+      <li>Python Programming Excellence</li>
+      <li>Data Science & Analytics Workshop</li>
+      <li>Responsive Web Design Certification</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">Python</div>
+      <div class="skill-box">SQL</div>
+      <div class="skill-box">React</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 S. Harshavarthini | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
